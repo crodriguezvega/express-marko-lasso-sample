@@ -12,8 +12,7 @@ var serveStatic = require('serve-static');
 
 var isProduction = process.env.NODE_ENV === 'production';
 
-// Configure the RaptorJS Optimizer to control how JS/CSS/etc. is
-// delivered to the browser
+// Lasso configuration
 require('lasso').configure({
   plugins: [
     'lasso-marko', // Auto compile Marko template files
