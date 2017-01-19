@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "../public/css/layout.css",
+    "require-run: ../public/js/layout.js"
+  ]
+}

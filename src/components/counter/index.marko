@@ -1,0 +1,32 @@
+// https://github.com/marko-js/marko/blob/master/ROADMAP.md
+
+<script>
+  module.exports = {
+    onInput(input) {
+      this.state = { count: input.value || 0 };
+    },
+    onMount() {
+        console.log('The counter component mounted!')
+    },
+    increment() {
+      this.state.count++;
+      this.emit('incrementEvent');
+    },
+    getCount() {
+      return this.state.count;
+    }
+  }
+</script>
+
+<style>
+  .count {
+    color: #09c;
+  }
+</style>
+
+<div>
+  <span class="count">${state.count}</span>
+  <button class="button" onClick('increment')>
+    increment count
+  </button>
+</div>

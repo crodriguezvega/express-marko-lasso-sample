@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "../browser.json",
+    "require: ../../components/app",
+    "../../public/css/page2/style1.css",
+    "require-run: ../../public/js/page2/script1.js",
+    "require-run: ../../public/js/page2/script2.js"
+  ]
+}

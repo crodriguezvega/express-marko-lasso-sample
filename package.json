@@ -1,0 +1,20 @@
+{
+  "name": "marko-lasso-test",
+  "version": "1.0.0",
+  "description": "Sample application to explore the use of marko.js & lasso.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-refresh": "^1.7.0",
+    "browser-refresh-taglib": "^1.1.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "lasso": "^2.10.2",
+    "lasso-marko": "^2.2.1",
+    "marko": "^4.0.0-rc.3"
+  }
+}

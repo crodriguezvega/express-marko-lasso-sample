@@ -1,0 +1,16 @@
+<script>
+  module.exports = {
+    onMount() {
+        console.log('The app component mounted!')
+    },
+    handleIncrement() {
+      var count = this.getWidget('counter').getCount();
+      this.getWidget('alert').setMessage('The counter is on ' + count);
+    }
+  }
+</script>
+
+<div>
+  <counter value=10 onIncrementEvent('handleIncrement') ref='counter'/>
+  <alert message='' ref='alert'/>
+</div>

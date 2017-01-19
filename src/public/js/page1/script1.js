@@ -1,0 +1,1 @@
+console.log('This is script 1 from page 1');

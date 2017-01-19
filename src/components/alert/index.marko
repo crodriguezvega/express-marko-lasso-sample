@@ -1,0 +1,17 @@
+<script>
+  module.exports = {
+    onInput(input) {
+      this.state = { message: input.message || '' };
+    },
+    onMount() {
+        console.log('The alert component mounted!')
+    },
+    setMessage(message) {
+      this.state.message = message; 
+    }
+  }
+</script>
+
+<p>
+  ${state.message}
+</p>
